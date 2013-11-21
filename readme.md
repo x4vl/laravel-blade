@@ -9,3 +9,8 @@ Search for Blade and install it, it's just that simple.
 ### Manual Install
 
 Drop the Blade.tmLanguage into your Packages folder.
+
+### Changes from Medalink
+
+- Added @assign tag
+- Now tags can be in one line @section('foo'){{'bar'}}@ensection
