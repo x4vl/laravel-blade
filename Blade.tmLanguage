@@ -10,7 +10,7 @@
     <key>foldingStartMarker</key>
     <string>\@\b(section)\b(?=(|\s*|)\()</string>
     <key>foldingStopMarker</key>
-    <string>\)(?!.*\))</string>
+    <string>\)</string>
     <key>name</key>
     <string>Blade</string>
     <key>patterns</key>
@@ -674,7 +674,7 @@
         <key>blade-compiler-tags</key>
         <dict>
             <key>begin</key>
-            <string>\@\b(include|section|layout|yield|if|elseif|foreach|forelse|for|while|render|unless)\b(?=(|\s*|)\()</string>
+            <string>\@\b(include|section|layout|yield|if|elseif|foreach|forelse|for|while|render|unless|assign)\b(?=(|\s*|)\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>0</key>
@@ -689,7 +689,7 @@
                 </dict>
             </dict>
             <key>end</key>
-            <string>\)(?!.*\))</string>
+            <string>\)</string>
             <key>endCaptures</key>
             <dict>
                 <key>0</key>
